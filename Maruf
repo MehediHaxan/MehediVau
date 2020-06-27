@@ -69,51 +69,7 @@ listgrup = []
 vulnot = "\033[31mNot Vuln"
 vuln = "\033[32mVuln"
 
-os.system("clear")
-print  """
-
-\033[1;97m              ─────█─▄▀█──█▀▄─█─────
-\033[1;97m              ────▐▌──────────▐▌────
-\033[1;97m              ────█▌▀▄──▄▄──▄▀▐█────
-\033[1;97m              ───▐██──▀▀──▀▀──██▌───
-\033[1;97m              ──▄████▄──▐▌──▄████▄──
-       
-     
-      
-      
-"""
-      
-                                                            
- 
-   	
-   	
-
-jalan("   \033[1;95m      Welcome to Termux Terminal ")
-
-
-jalan("\033[1;98m•◈•────────•◈•\033[1;96mMehedi Hasan Maruf\033[1;96m•◈•────────•◈•")
-
-CorrectUsername = "mehedi"
-CorrectPassword = "hasan"
-
-
-loop = 'true'
-while (loop == 'true'):
-    username = raw_input("\033[1;96m[☆] \x1b[1;97mUSER ID \x1b[1;96m>>>> ")
-    if (username == CorrectUsername):
-    	password = raw_input("\033[1;96m[☆] \x1b[1;97mPASWORD \x1b[1;96m>>>> ")
-        if (password == CorrectPassword):
-            print "Logged in successfully as " + username
-            loop = 'false'
-        else:
-            print "Wrong Password"
-            os.system('xdg-open https://www.facebook.com/youR.Bid.daD.of.mehedi')
-    else:
-        print "Wrong Username"
-        os.system('xdg-open https://www.facebook.com/youR.Bid.daD.of.mehedi')
-
-def login():
-	os.system('clear')
+os.system('clear')
 	try:
 		toket = open('login.txt','r')
 		menu() 
